@@ -1,13 +1,16 @@
 #include <stdio.h>
+#define UNUSED(x) (void)(x)
+
 /**
- * main - print the number of arguments passed into it.
- * @argc: number of command line argument.
- * @argv: array that contains the program command line arg.
- * Return: (0) when succesful.
- *
+ *main - function declation
+ *@argv: arrays of argument
+ *@argc: argument counter
+ *Return: always 0
  */
-int main (int argc, char **argv_attribute_((unused)))
+
+int main(int argc, char **argv)
 {
-	printf("%dd\n", argc - l);
-	return (0);
+UNUSED(argv);
+printf("%d\n", argc -1);
+return (0);
 }
