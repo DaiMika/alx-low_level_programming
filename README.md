@@ -73,3 +73,5 @@ Directories under this;
 0x0E-structures_typedef
 
 0x0F. C - Function pointers
+
+0x10. C - Variadic functions
