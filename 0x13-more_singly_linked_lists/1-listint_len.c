@@ -2,19 +2,18 @@
 
 /**
  * listint_len - counts the number of nodes in a linked list
- * @h: head of the list
+ * @h: head of a list.
  *
- * Return: the number of elements
+ * Return: numbers of nodes.
  */
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *pointer = h;
-	size_t count = 0;
+	size_t nodes = 0;
 
-	while (pointer != NULL)
+	while (h != NULL)
 	{
-		count += 1;
-		pointer= pointer->next;
+		h = h->next;
+		nodes++;
 	}
-	return (count);
+	return (nodes);
 }
