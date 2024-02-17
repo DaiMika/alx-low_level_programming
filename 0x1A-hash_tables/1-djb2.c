@@ -1,8 +1,3 @@
-/*
- * File: 1-djb2.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "hash_tables.h"
 
 /**
